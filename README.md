@@ -53,30 +53,8 @@ The final reporting layer visualises:
 - PL/SQL
 - Tableau
 
+## Files in this repo
+- industrial_return_script.sql — the complete script, from table creation through the compliance and split-purchase queries
 
----
-
-# PROJECT 2 — `key_findings.md`
-
-```markdown
-# Key Findings
-
-## Contract awards
-
-The dataset contains 2,000 contract awards across 20 countries and 4 procurement categories.
-
-Country-level analysis was used to compare contribution share with award share.
-
-## Requisition thresholds
-
-1,500 purchase requisitions were classified into different procurement procedure bands based on their value.
-
-## Potential purchase-splitting patterns
-
-Supplier-month combinations were analysed to identify repeated smaller purchases whose combined value crossed the selected review threshold.
-
-These records should be treated as review candidates rather than confirmed compliance violations.
-
-## Reporting
-
-The findings were presented through interactive visual reporting so that procurement patterns could be explored by country, category and threshold level.
+## Note
+Member state contribution percentages used here are approximate, for illustration, not CERN's official figures.
